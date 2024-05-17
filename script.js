@@ -1,12 +1,8 @@
 function getStarted(){
-    window.location.href =
-    "https://kegow.com/#download"
+    window.open("https://kegow.com/#download", "_blank");
 }
 
-//document.addEventListener('keydown',
-//function(event){
-//        if (event.key === 'Enter'){
-//            getStarted();
-//        }
-//    }
-//);
+function Login(){
+    window.open("https://app.kegow.com/login", "_blank");
+    
+}
