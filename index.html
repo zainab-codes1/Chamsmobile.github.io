@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Chams</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="chams-main-logo 1.png" alt="Chams Mobile Logo" style="width: 90px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#news">Developers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#news">Blog</a>
+                    </li>
+                    <!-- Dropdown 1 -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Company
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                            <li><a class="dropdown-item" href="https://chamsmobile.com/about-us/">About Us</a></li>
+                            <li><a class="dropdown-item" href="https://chamsmobile.com/our-commitments/">Our Commitments</a></li>
+                            <li><a class="dropdown-item" href="https://chamsmobile.com/category/careers/">Careers</a></li>
+                        </ul>
+                    </li>
+                    <!-- Dropdown 2 -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Solutions
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                            <li><a class="dropdown-item" href="https://chamsmobile.com/vota/">VOTA</a></li>
+                            <li><a class="dropdown-item" href="https://kegow.com">KEGOW</a></li>
+                            <li><a class="dropdown-item" href="https://chamsmobile.com/alive/">I'm Alive</a></li>
+                            <li><a class="dropdown-item" href="https://chamsmobile.com/hr-solution/">HR and Payroll Solution</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <button class="btn btn-success me-2 " style="border-radius: 20px; border: none;">Business</button>
+                    <button class="btn btn-outline-success me-2" style="border-radius: 20px;">Individual</button>
+                    <button class="btn btn-dark" style="border-radius: 20px; border: none;">Login</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container-fluid mt-2 intro justify-content-center" width="100%">
+        <div class="row">
+            <div class="col-6">
+                <div class="introLeft">
+                    <p class="text-sm-start fs-1" style="font-weight: 900;">
+                        Enjoy fast, secure <br>and reliable <br>transactions 
+                        <br>
+                        <button class="btn fw-bold mt-2" onclick="getStarted()" style="background-color: #94c53d;">Get Started</button>
+                    </p>
+                    <img src="KEGOW LICENCES 1.png" alt="kegow license" class="img-fluid mt-2">
+                    <div class="downloadBtn mt-2 mb-2 d-flex flex-column">
+                        <a href="https://apps.apple.com/gb/app/kegow-wallet/id1607236016" target="_blank" class="me-2"><img src="AppStore.png" alt="Download it on the App Store" class="img-fluid"></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.chamsmobile.android" target="_blank"><img src="GooglePlay.png" alt="Get it on Google Play" class="img-fluid"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <img src="kegow-woman53.png" alt="kegow-woman" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="container my-5" style="background-image: url(Background.png);">
+        <p class="text-center" style="font-weight: 300;">Trusted by</p>
+        <div class="text-center">
+            <img src="trusted-by.png" alt="Trusted by" class="img-fluid">
+        </div>
+        <div class="mt-4 d-flex flex-wrap justify-content-center gap-3">
+            <a href="#1" class="button btn btn-light"style="border-radius: 20px; border: none;">Kegow Individual Wallet</a>
+            <a href="#2" class="button btn btn-light"style="border-radius: 20px; border: none;">Kegow Agent Wallet</a>
+            <a href="#3" class="button btn btn-light"style="border-radius: 20px; border: none;">Kegow Business Wallet</a>
+            <a href="#4" class="button btn btn-light"style="border-radius: 20px; border: none;">Kegow Pay-Payroll and HR Solution</a>
+        </div>
+
+        <!-- Section 1 -->
+        <div class="container my-5" id="1">
+            <div class="row align-items-center">
+                <div class="col-md-6 order-md-2">
+                    <div class="text">
+                        <h3>Kegow Individual Wallet</h3>
+                        <p>Create a Kegow individual wallet to meet all your personal financial needs. With this wallet, you can access Kegow’s special savings, debit cards, and thrifts. Kegow individual wallets come in 3 categories; tier 1, 2 & 3. Find out what the transaction limits for each tier here.</p>
+                        <button class="btn btn-success" style="border-radius: 15px; border: none;">Get started</button>
+                    </div>
+                </div>
+                <div class="col-md-6 order-md-1">
+                    <div class="image">
+                        <img src="Group 40.png" alt="Your Image" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 2 -->
+        <div class="container my-5" id="2">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="text">
+                        <h3>Kegow Agent Wallet</h3>
+                        <p>With one of the cheapest commission rates in the industry, our durable Point of Sale Terminals make you ready for business as there is no limit to what you can achieve with Kegow.</p>
+                        <button class="btn btn-success" style="border-radius: 15px; border: none;">Get started</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="image">
+                        <img src="Group 47.png" alt="Your Image" class="img-fluid" style="float: right;">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 3 -->
+        <div class="container my-5" id="3">
+            <div class="row align-items-center">
+                <div class="col-md-6 order-md-2">
+                    <div class="text">
+                        <h3>Kegow Business Wallet</h3>
+                        <p>Kegow business wallet caters for SMEs and NGOs. The wallet allows them to manage cash disbursement at very low charges. The wallet also enables SMEs to easily manage treasury, invoicing, human resources, payroll, and payment schedule free of charge. Kegow also provides investment opportunities for SMEs that operate on Kegow wallet.</p>
+                        <button class="btn btn-success" style="border-radius: 15px; border: none;">Get started</button>
+                    </div>
+                </div>
+                <div class="col-md-6 order-md-1">
+                    <div class="image">
+                        <img src="Group 57.png" alt="Your Image" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 4 -->
+        <div class="container my-5" id="4">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="text">
+                        <h3>Kegow Pay-Payroll and HR Solution</h3>
+                        <p>Manage your payroll and HR needs with Kegow's efficient and cost-effective solutions designed for businesses of all sizes.</p>
+                        <button class="btn btn-success" style="border-radius: 15px; border: none;">Get started</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="image">
+                        <img src="Group 49 (2).png" alt="Your Image" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-5">
+            <img src="Group 26.png" class="img-fluid" alt="Group Image">
+        </div>
+
+        <p class="text-center mt-5" style="font-weight: 700;">Certifications</p>
+        <div class="text-center">
+            <img src="Certifications.png" alt="Certifications" class="img-fluid">
+        </div>
+    </div>
+
+    <footer class="footer-wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-md-start mb-4 mb-md-0">
+                    <img src="chams-main-logo 1.png" alt="Chams Mobile Logo" class="chams img-fluid mb-3">
+                    <div class="downloadBtn d-flex flex-column justify-content-md-start">
+                        <a href="https://apps.apple.com/gb/app/kegow-wallet/id1607236016" class="me-2"><img src="AppStore2.png" alt="Download it on the App Store" class="img-fluid" target="_blank"></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.chamsmobile.android"><img src="GooglePlay2.png" alt="Get it on Google Play" class="img-fluid" target="_blank"></a>
+                    </div>
+                    <div class="socials d-flex justify-content-md-start mt-2">
+                        <a href="mailto:info@chamsmobile.com" target="_blank" class="me-2"><img src="free-email-2026367-1713640 1.png" alt="Email" class="img-fluid"></a>
+                        <a href="https://web.facebook.com/kegowwallet" target="_blank" class="me-2"><img src="instagram logo white.png" alt="Instagram" class="img-fluid"></a>
+                        <a href="https://x.com/kegowWallet" target="_blank" class="me-2"><img src="x white.png" alt="X" class="img-fluid"></a>
+                        <a href="https://web.facebook.com/kegowwallet" target="_blank"><img src="facebook logo.png" alt="Facebook" class="img-fluid"></a>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-4 mb-4 mb-md-0">
+                            <h5>Quicklinks</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="text-white">Features</a></li>
+                                <li><a href="#" class="text-white">FAQs</a></li>
+                                <li><a href="#" class="text-white">Login</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 mb-4 mb-md-0">
+                            <h5>Company</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="text-white">Home</a></li>
+                                <li><a href="#" class="text-white">Privacy Policy</a></li>
+                                <li><a href="#" class="text-white">Download app</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h5>Contact</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="tel:+2348079664791" class="text-white">+(234) 807 966 4791</a></li>
+                                <li><a href="mailto:info@chamsmobile.com" class="text-white">info@chamsmobile.com</a></li>
+                               <li> <a href="https://www.google.com/maps/search/?api=1&query=5+Ogunsiji+Close,Off+Adebayo+Solanke+Avenue,Allen,Ikeja" class="text-white" target="_blank">
+                                    5 Ogunsiji Close,<br>
+                                    Off Adebayo Solanke Avenue, Allen,<br>
+                                    Ikeja
+                                </a></li>
+                                <li class="text-white"> <a href="https://www.google.com/maps/search/?api=1&query=8+Louis+Solomon+Close,VI,Lagos" class="text-white" target="_blank">
+                                    8 Louis Solomon Close,<br>
+                                    VI, Lagos
+                                </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <p class="text-center">KEGOW is a product of Chamsmobile (RC728693). We are licensed by the Central Bank of Nigeria (CBN) to provide Mobile Money Operations and Agency Banking services.</p>
+            <p class="text-center">© 2023 All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
